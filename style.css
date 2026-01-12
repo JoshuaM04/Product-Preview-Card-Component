@@ -21,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 1rem;
+  width: 85vw;
   height: -moz-fit-content;
   height: fit-content;
   background-color: hsl(0, 0%, 100%);
@@ -29,7 +30,7 @@ body {
 }
 .parent .image-container {
   width: 100%;
-  height: 23rem;
+  height: 20rem;
   margin-top: 0;
   border-style: clear;
 }
@@ -44,7 +45,8 @@ body {
   padding: 1rem;
 }
 .parent .main-text .product-description {
-  width: 75%;
+  width: 80%;
+  font-family: "Arial";
   font-size: 1rem;
   border-style: clear;
 }
@@ -52,7 +54,7 @@ body {
   font-family: "Montserrat";
   font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
 }
 .parent h1 {
   font-family: "Fraunces";
@@ -96,4 +98,7 @@ body {
 }
 .parent .button-container button .cart-icon {
   margin-right: 0.5rem;
+}
+.parent .button-container button:hover {
+  background-color: black;
 }/*# sourceMappingURL=style.css.map */
