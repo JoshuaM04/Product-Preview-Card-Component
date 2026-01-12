@@ -50,34 +50,29 @@ body {
   font-size: 1rem;
   border-style: clear;
 }
-.parent #product-name {
+.parent .main-text #product-name {
   font-family: "Montserrat";
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
-.parent h1 {
-  font-family: "Fraunces";
-  font-size: 2.1rem;
-  color: hsl(212, 21%, 14%);
-}
-.parent .text {
+.parent .main-text .text {
   margin-bottom: 1rem;
 }
-.parent .cost {
+.parent .main-text .cost {
   display: flex;
   align-items: center;
 }
-.parent .cost #current-price {
+.parent .main-text .cost #current-price {
   font-family: "Fraunces";
   font-size: 2rem;
   color: hsl(158, 36%, 37%);
   margin-right: 1rem;
 }
-.parent .cost #original-price {
+.parent .main-text .cost #original-price {
   text-decoration: line-through;
 }
-.parent .button-container {
+.parent .main-text .button-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,7 +80,7 @@ body {
   height: 3rem;
   border-style: clear;
 }
-.parent .button-container button {
+.parent .main-text .button-container button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,9 +91,14 @@ body {
   border-radius: 10px;
   border: none;
 }
-.parent .button-container button .cart-icon {
+.parent .main-text .button-container button .cart-icon {
   margin-right: 0.5rem;
 }
-.parent .button-container button:hover {
+.parent .main-text .button-container button:hover {
   background-color: black;
+}
+.parent .main-text h1 {
+  font-family: "Fraunces";
+  font-size: 2.1rem;
+  color: hsl(212, 21%, 14%);
 }/*# sourceMappingURL=style.css.map */
