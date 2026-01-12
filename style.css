@@ -42,4 +42,17 @@ body {
 .parent .main-text {
   margin: 1rem;
   padding: 1rem;
+}
+.parent .product-name {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+.parent h1 {
+  color: hsl(212, 21%, 14%);
+}
+.parent #current-price {
+  color: green;
+}
+.parent #original-price {
+  text-decoration: line-through;
 }/*# sourceMappingURL=style.css.map */
