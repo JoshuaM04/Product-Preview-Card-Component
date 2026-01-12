@@ -57,11 +57,13 @@ body {
     }
 
     #product-name {
+        font-family: "Montserrat";
         text-transform: uppercase;
         letter-spacing: .5rem;
     }
 
     h1 {
+        font-family: "Fraunces";
         color: $heading-color;
     }
 
@@ -73,6 +75,7 @@ body {
         @include flexAlt();
 
         #current-price {
+            font-family: "Fraunces";
             color: $cost-color;
             margin-right: 1rem;
         }

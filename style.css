@@ -44,10 +44,12 @@ body {
   padding: 1rem;
 }
 .parent #product-name {
+  font-family: "Montserrat";
   text-transform: uppercase;
   letter-spacing: 0.5rem;
 }
 .parent h1 {
+  font-family: "Fraunces";
   color: hsl(212, 21%, 14%);
 }
 .parent .text {
@@ -58,6 +60,7 @@ body {
   align-items: center;
 }
 .parent .cost #current-price {
+  font-family: "Fraunces";
   color: hsl(158, 36%, 37%);
   margin-right: 1rem;
 }
