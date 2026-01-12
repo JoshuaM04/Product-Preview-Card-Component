@@ -40,7 +40,7 @@ body {
 
     .image-container {
         width: 100%;
-        height: 25rem;
+        height: 23rem;
         margin-top: 0;
         border-style: clear;
 
@@ -54,16 +54,24 @@ body {
 
     .main-text {
         @include spacing();
+
+        .product-description {
+            width: 75%;
+            font-size: 1rem;
+            border-style: clear;
+        }
     }
 
     #product-name {
         font-family: "Montserrat";
+        font-size: .8rem;
         text-transform: uppercase;
         letter-spacing: .5rem;
     }
 
     h1 {
         font-family: "Fraunces";
+        font-size: 2.1rem;
         color: $heading-color;
     }
 
@@ -76,6 +84,7 @@ body {
 
         #current-price {
             font-family: "Fraunces";
+            font-size: 2rem;
             color: $cost-color;
             margin-right: 1rem;
         }
