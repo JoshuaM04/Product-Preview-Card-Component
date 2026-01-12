@@ -2,6 +2,7 @@ $heading-color: hsl(212, 21%, 14%);
 $text-color: hsl(228, 12%, 48%);
 $background-color: hsl(30, 38%, 92%);
 $container-background-color: hsl(0, 0%, 100%);
+$cost-color: hsl(158, 36%, 37%);
 
 * {
     margin: 0;
@@ -12,6 +13,10 @@ $container-background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+@mixin flexAlt() {
+    display: flex;
     align-items: center;
 }
 @mixin spacing() {
@@ -51,7 +56,7 @@ body {
         @include spacing();
     }
 
-    .product-name {
+    #product-name {
         text-transform: uppercase;
         letter-spacing: .5rem;
     }
@@ -65,11 +70,10 @@ body {
     }
 
     .cost {
-        display: flex;
-        align-items: center;
+        @include flexAlt();
 
         #current-price {
-            color: green;
+            color: $cost-color;
             margin-right: 1rem;
         }
 
@@ -84,12 +88,18 @@ body {
         border-style: clear;
 
         button {
+            @include flexAlt();
+            justify-content: center;
             width: 100%;
             height: 100%;
             color: white;
-            background-color: green;
+            background-color: $cost-color;
             border-radius: 10px;
             border: none;
+
+            .cart-icon {
+                margin-right: .5rem;
+            }
         }
     }
 }
