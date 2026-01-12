@@ -50,9 +50,33 @@ body {
 .parent h1 {
   color: hsl(212, 21%, 14%);
 }
-.parent #current-price {
-  color: green;
+.parent .text {
+  margin-bottom: 1rem;
 }
-.parent #original-price {
+.parent .cost {
+  display: flex;
+  align-items: center;
+}
+.parent .cost #current-price {
+  color: green;
+  margin-right: 1rem;
+}
+.parent .cost #original-price {
   text-decoration: line-through;
+}
+.parent .button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  border-style: clear;
+}
+.parent .button-container button {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
