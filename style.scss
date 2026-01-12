@@ -1,0 +1,27 @@
+$heading-color: hsl(212, 21%, 14%);
+$text-color: hsl(228, 12%, 48%);
+$background-color: hsl(30, 38%, 92%);
+$container-background-color: hsl(0, 0%, 100%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin flex() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    height: 100vh;
+    font-size: 0.875rem;
+    color: $text-color;
+    background-color: $background-color;
+}
+.parent {
+    @include flex();
+    height: fit-content;
+    border-style: solid;
+}

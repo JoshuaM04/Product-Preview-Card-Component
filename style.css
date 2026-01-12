@@ -1,1 +1,22 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 0.875rem;
+  color: hsl(228, 12%, 48%);
+  background-color: hsl(30, 38%, 92%);
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-style: solid;
+}/*# sourceMappingURL=style.css.map */
