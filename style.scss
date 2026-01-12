@@ -14,7 +14,12 @@ $container-background-color: hsl(0, 0%, 100%);
     justify-content: center;
     align-items: center;
 }
+@mixin spacing() {
+    margin: 1rem;
+    padding: 1rem;
+}
 body {
+    @include flex;
     height: 100vh;
     font-size: 0.875rem;
     color: $text-color;
@@ -22,6 +27,27 @@ body {
 }
 .parent {
     @include flex();
+    margin: 1rem;
     height: fit-content;
-    border-style: solid;
+    background-color: $container-background-color;
+    border-style: clear;
+    border-radius: 10px;
+
+    .image-container {
+        width: 100%;
+        height: 25rem;
+        margin-top: 0;
+        border-style: clear;
+
+        .perfume-image {
+            width: 100%;
+            height: 100%;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+    }
+
+    .main-text {
+        @include spacing();
+    }
 }
