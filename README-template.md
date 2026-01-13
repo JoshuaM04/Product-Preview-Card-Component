@@ -75,21 +75,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [How to download jQuery YT tutorial](https://www.youtube.com/watch?v=s6Q7xY25loA) - I was intitially having issues using jQueries within my script.js file and noticed an error within terminal. So, I found this video helpful as I did not know I needed to download a file for jQueries nor did I know how to add it to my code.
+- [W3Schools](https://www.w3schools.com/jquery/jquery_css.asp) - This webpage helped me understand how I can put jQueries into practice for events such as click events.
+- [Media Queries Alternative YT video](https://www.youtube.com/watch?v=pYW3O0AxpI8) - This video helped me understand a more efficient alternative to media queries such as using min(), max(), and clamp(). I used clamp throughout my css stylesheet to avoid using multiple media queries.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
