@@ -21,18 +21,18 @@ body {
   justify-content: center;
   align-items: center;
   margin: 1rem;
-  width: 85vw;
-  height: -moz-fit-content;
-  height: fit-content;
+  width: clamp(20em, 70vw, 70em);
+  height: clamp(50em, 90vh, 50em);
   background-color: hsl(0, 0%, 100%);
   border-style: clear;
   border-radius: 10px;
 }
 .parent .image-container {
   width: 100%;
-  height: 20rem;
+  height: 100%;
   margin-top: 0;
   border-style: clear;
+  overflow: hidden;
 }
 .parent .image-container .perfume-image {
   width: 100%;
@@ -43,9 +43,10 @@ body {
 .parent .main-text {
   margin: 1rem;
   padding: 1rem;
+  width: 100%;
 }
 .parent .main-text .product-description {
-  width: 80%;
+  width: 90%;
   font-family: "Arial";
   font-size: 1rem;
   border-style: clear;
@@ -57,7 +58,10 @@ body {
   letter-spacing: 0.3rem;
 }
 .parent .main-text .text {
-  margin-bottom: 1rem;
+  margin-bottom: clamp(1rem, 2vw, 4rem);
+}
+.parent .main-text h1.text {
+  font-size: clamp(2rem, 2.5vw, 2.6rem);
 }
 .parent .main-text .cost {
   display: flex;
@@ -101,4 +105,33 @@ body {
   font-family: "Fraunces";
   font-size: 2.1rem;
   color: hsl(212, 21%, 14%);
+}
+
+@media (min-width: 1000px) {
+  .parent {
+    display: flex;
+    flex-direction: row;
+  }
+  .image-container {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .image-container .perfume-image {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+  .main-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-text .product-description {
+    width: 100% !important;
+  }
+}
+@media (min-width: 1800px) {
+  .text {
+    font-size: 1.5rem;
+    margin-bottom: 5rem !important;
+  }
 }/*# sourceMappingURL=style.css.map */
